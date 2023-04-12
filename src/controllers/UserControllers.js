@@ -1,7 +1,5 @@
 const sqliteConnection = require('../database/sqlite')
 const AppError = require('../utils/AppErrors')
-const authConfig = require('../config/Auth')
-const { sigin } = require('jsonwebtoken')
 const { hash } = require('bcryptjs')
 
 class UserController {

@@ -4,7 +4,7 @@ exports.up = knex => knex.schema.createTable("ingredients", table => {
   table.text("name").notNullable();
 
   table.integer("user_id").references("id").inTable("users");
-  table.integer("product_id").unsigned().references("product.id").onDelete("CASCADE");
+  table.integer("product_id").references("id").inTable("products").onDelete("CASCADE");
 
 });
 

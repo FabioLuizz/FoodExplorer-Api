@@ -2,7 +2,7 @@ const AppError = require('../utils/AppErrors')
 const Auth = require('../config/Auth')
 const { verify } = require('jsonwebtoken')
 
-function EnsureAuthenticated(request, response, next) {
+function ensureAuthenticated(request, response, next) {
   const AuthHeader = request.headers.authorization
 
   if (!AuthHeader) {
@@ -24,4 +24,4 @@ function EnsureAuthenticated(request, response, next) {
   }
 }
 
-module.exports = EnsureAuthenticated
+module.exports = ensureAuthenticated
