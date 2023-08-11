@@ -10,16 +10,16 @@ Clique **[aqui](https://candid-heliotrope-55beb7.netlify.app/)** para acessar. O
 
 Foram usados os seguintes tópicos:
 
-Express
-Routes and http method
-Params
-Controllers
-Middleware
-SQL
-Migrations
-Query Builder
-Cors
-JWT
+Express,
+Routes and http method,
+Params,
+Controllers,
+Middleware,
+SQL,
+Migrations,
+Query Builder,
+Cors,
+JWT,
 Knex
 Disk Storage
 
@@ -30,6 +30,7 @@ Disk Storage
 Este projeto está dividido em duas partes:
 
 **Back-End**
+**e**
 **Front-end**
 
 O Front-end precisa que o Back-End esteja rodando para funcionar
