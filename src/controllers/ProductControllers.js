@@ -23,7 +23,7 @@ class ProductControllers {
 
     const tagsInsert = await ingredients.map(name => {
       return {
-        product_id,
+        product_id: product_id[0],
         name: JSON.parse(name),
         user_id
       }
